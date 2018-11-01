@@ -1,0 +1,15 @@
+D:\visual_studio_projects\Game_test\Game_test\bin\Debug\Game_test.exe.config
+D:\visual_studio_projects\Game_test\Game_test\bin\Debug\Game_test.exe
+D:\visual_studio_projects\Game_test\Game_test\bin\Debug\Game_test.pdb
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\MainWindow.g.cs
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\App.g.cs
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\Game_test_MarkupCompile.cache
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\Game_test_MarkupCompile.lref
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\MainWindow.baml
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\Game_test.g.resources
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\Game_test.Properties.Resources.resources
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\Game_test.csproj.GenerateResource.cache
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\Game_test.csproj.CoreCompileInputs.cache
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\Game_test.exe
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\Game_test.pdb
+D:\visual_studio_projects\Game_test\Game_test\obj\Debug\Game_test.csprojAssemblyReference.cache

@@ -1,0 +1,46 @@
+﻿<Window x:Class="Game_test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Game_test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="770" Width="575" 
+        KeyDown="OnKeyDownHandler">
+    <Canvas Background="#1f1f2e">
+        <Border  HorizontalAlignment="Left" VerticalAlignment="Top"  
+                 BorderBrush="#c1c1f0" BorderThickness="4" 
+                 Margin="50,30,50,50"
+                 CornerRadius="3,3,3,3">
+            <Grid Name="game_field" Width="450" Height="450"
+                  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+
+            </Grid>
+
+        </Border>
+        <TextBlock FontSize="14" Name="Instruction" TextAlignment="Justify"  Width="278" Foreground ="#c1c1f0" Canvas.Left="256" Canvas.Top="570" Height="100"/>
+        <Button Content="Рестарт" Width="156" Height="30"
+                Focusable="False"
+                    Background="#c1c1f0" Foreground="#1f1f2e"
+                    FontSize="15"
+                    Click="Restart"
+                    Canvas.Left="74" />
+        <Image Source="arrows.png" Name="arrows" Canvas.Left="30" Canvas.Top="534" Width="200" Height="100"/>
+        <Image Source="spaces.png"  Canvas.Left="30" Canvas.Top="634" Width="200" Height="102"/>
+    </Canvas>
+</Window>
